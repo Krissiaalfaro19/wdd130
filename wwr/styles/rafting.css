@@ -20,7 +20,6 @@ h1 {
 }
 
 h2 {
-  font-family: var(--secondary-color);
   font-weight: 200;
   font-style: italic;
   color: #38369a;
