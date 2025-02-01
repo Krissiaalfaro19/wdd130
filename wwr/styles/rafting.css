@@ -6,7 +6,6 @@
   --heading-font: "PT Serif", serif;
   --text-font: "Goudy Bookletter 1911", serif;
   padding: 50px;
-  padding-top: 0%;
 }
 
 h1 {
@@ -65,8 +64,8 @@ p {
   right: 30%;
   background-color: rgba(173, 168, 196, 0.5);
   padding: 10px;
-  padding-left: 80;
-  padding-right: 80;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 /*W4 WDD130*/
 
