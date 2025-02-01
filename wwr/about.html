@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <header>
+    <!--Usar CSS GRID-->
+    <header class="encabezado">
         <img src="images/logo.png" alt="Serenity River logo">
         <nav>
             <a href="index.html">Homepage</a>
@@ -23,7 +23,7 @@
         </nav>
     </header>
 
-    <main> <!-- FALTA ARREGLAR TODO EL MAIN-->
+    <main>
         <div class="hero">
             <img src="images/heroimage.jpg" alt="People in rafts down the river ">
             <p>Lorem ipsum tent finibus varius amet. Suscipit eros praesent ad tellus proin volutpat. Nam enim ipsum fusce posuere; nulla vel quam nunc. Dignissim dignissim dictumst blandit efficitur tempus eleifend scelerisque tempor. Aliquet tincidunt nam massa montes congue consequat sapien ridiculus. odor amet, consectetuer adipiscing elit. Porta id ullamcorper tortor diam primis dolor. Tempus velit nec proin suscipit ligula conubia maximus.</p>
@@ -32,19 +32,41 @@
         <article>
             <img src="images/happy-working-employee.jpg" alt="A Happy employee enjoying the trip by the river">
         </article>
-        <section>
+        <section class="flex-container">
             <h2>History</h2>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis morbi eleifend a bibendum pharetra mattis potenti id. Amet lobortis feugiat ullamcorper per laoreet orci lorem. Ante fusce parturient aptent finibus varius amet. Suscipit eros praesent ad tellus proin volutpat. Nam enim ipsum fusce posuere; nulla vel quam nunc. Dignissim dignissim dictumst blandit efficitur tempus eleifend scelerisque tempor. Aliquet tincidunt nam massa montes congue consequat sapien ridiculus.</p>
-        </section>
-        <section>
+            <div class="flex-content">
+                <p class="p1">Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis morbi eleifend a bibendum pharetra mattis potenti id. Amet lobortis feugiat ullamcorper per laoreet orci lorem. Ante fusce parturient aptent finibus varius amet. Suscipit eros praesent ad tellus proin volutpat. Nam enim ipsum fusce posuere; nulla vel quam nunc. Dignissim dignissim dictumst blandit efficitur tempus eleifend scelerisque tempor. Aliquet tincidunt nam massa montes congue consequat sapien ridiculus.</p>
+                <img class="img" src="images/image6.jpg" alt="middle image in the History part of the page">
+                <p class="p2">Lorem ipsum odor amet, consectetuer adipiscing elit. Convallis morbi eleifend a bibendum pharetra mattis potenti id. Amet lobortis feugiat ullamcorper per laoreet orci lorem. Ante fusce parturient aptent finibus varius amet. Suscipit eros praesent ad tellus proin volutpat. Nam enim ipsum fusce posuere; nulla vel quam nunc. Dignissim dignissim dictumst blandit efficitur tempus eleifend scelerisque tempor. Aliquet tincidunt nam massa montes congue consequat sapien ridiculus.</p>
+            </div>
+        </section>   
+        <!--Third section-->     
+        <section class="flex-container">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/image1.jpg" alt="People celebrating">
-            <img src="images/image2.jpg" alt="people in rafts down the river">
-            <img src="images/image3.jpg" alt="Splashfam equipment">
-            <img src="images/image4.jpg" alt="End of the river">
-            <img src="images/image5.jpg" alt="Safety equipment">
+        <div class="images5">
+        <figure>
+            <img class="img1" src="images/image1.jpg" alt="People celebrating">
+            <figcaption>People celebrating</figcaption>
+        </figure>
+         <figure>
+            <img class="img1" src="images/image2.jpg" alt="People in rafts down the river">
+            <figcaption>People in rafts down the river</figcaption>
+        </figure>
+        <figure>
+            <img class="img1" src="images/image3.jpg" alt="Whitewater rafting">
+            <figcaption>Whitewater raftin</figcaption>
+         </figure>
+         <figure>
+            <img class="img1" src="images/image4.jpg" alt="End of the river">
+            <figcaption>End of the river</figcaption>
+        </figure>
+        <figure>
+            <img class="img1" src="images/image5.jpg" alt="Safety equipment">
+            <figcaption>Safety equipment</figcaption>
+        </figure>
+        </div>
         </section>         
-    </main> <!-- FALTA ARREGLAR TODO EL MAIN-->
+    </main> 
 
     <footer>
         <p>©2025 Serenity River, Krissia Alfaro</p>
