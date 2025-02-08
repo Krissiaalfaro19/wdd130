@@ -5,26 +5,27 @@
   --accent2-color: #a9dbb8;
   --heading-font: "PT Serif", serif;
   --text-font: "Goudy Bookletter 1911", serif;
-  padding: 50px;
+  padding: 10px;
 }
 
 h1 {
   font-family: var(--heading-font);
   font-weight: 900;
   font-style: italic;
-  color:white;
+  color: black;
   position: absolute;
-  top: 28%;
+  top: 25%;
   left: 40%;
   font-size: 40px;
 }
 
 h2 {
-  font-weight: 200;
+  font-weight: 110;
   font-style: italic;
   color: #38369a;
-  font-size: 42px;
+  font-size: 34px;
   text-align: center;
+  padding-top: 10%;
 } 
 
 article img {
@@ -73,6 +74,7 @@ display: grid;
 grid-template-columns: auto auto;
 align-items: center; 
 gap: 20px;
+background-color: #a9dbb8;
 }
 
 .encabezado nav {
@@ -86,7 +88,13 @@ font-size: 22px;
 margin-right: 100px; 
 }
 
-/*History*/
+.encabezado img{
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/*History*/ /*Company information
 
 .flex-container {
 text-align: center; 
@@ -107,8 +115,13 @@ gap: 30px;
 
 .flex-content {
 display: flex;
-align-items: center; 
+text-align: left; 
 gap: 20px; 
+}
+
+.flex-content iframe{
+  display: flex;
+  align-items: center;
 }
 
 .p1, .p2 {
@@ -118,7 +131,12 @@ flex: 1;
 .img {
 width: 220px;
 height: 150px; 
-}
+}*/
+
+.flex-content li, iframe{
+  display: flex;
+  padding: 1%;
+  }
 
 /*Adventure Awaits You! Part*/
 
@@ -171,4 +189,5 @@ justify-content: right;
 padding: 30px;
 gap: 30%;
 top: 55%;
+background-color: #a9dbb8;
 }
