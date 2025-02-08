@@ -160,7 +160,7 @@ text-align: center;
 
 .img1{
 flex-grow: 1;
-max-width: 220px;
+max-width: 200px;
 max-height: 250px;
 }
 
@@ -170,6 +170,34 @@ flex-direction: row;
 gap: 20px;
 padding-top: 3%;
 padding-bottom: 5%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: var(--accent1-color);
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#button {
+  font-family: var(--text-font);
+  background-color: var(--secondary-color);
+  font-weight: 600px;
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  justify-self: end;
+}
+
+footer {
+  margin-top: 10px;
 }
 
 /*footer*/
@@ -193,3 +221,4 @@ gap: 30%;
 top: 55%;
 background-color: #a9dbb8;
 }
+
