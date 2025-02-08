@@ -186,7 +186,7 @@ padding-bottom: 5%;
 #button {
   font-family: var(--text-font);
   background-color: var(--secondary-color);
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 15px;
   color: white;
   width: 100px;
